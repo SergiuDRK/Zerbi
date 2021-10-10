@@ -85,9 +85,7 @@ footer{
   padding: 0 8px;
 margin-top: 16px;
 font-size: 32px;
-
 }
-
 
 html { scroll-behavior: smooth; }
 
@@ -214,4 +212,11 @@ audio{
   .cop{
     size: 10px;
     float: left;
+}
+
+html,body {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
 }
