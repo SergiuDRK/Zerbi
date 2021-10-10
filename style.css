@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'Bebas Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     color: white;
 }
@@ -49,9 +49,9 @@ footer{
 
 
 .emblema{
-    margin-left: 40px;
+    margin-left: 20px;
     border-radius: 50%;
-    height: 30%;
+    width: 25%;
     text-align: left;
 }
 
@@ -261,3 +261,4 @@ html,body {
     font-weight:bold;
     font-size:1.5em;
   }
+  
