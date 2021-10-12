@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zerbi</title>
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
 
@@ -30,11 +31,11 @@
   <section>
     <div class="echipa"><a name="echipa"></a>
       <h4>Echipa Zerbi</h4>
-        <div class="membru container textOverImage" data-text="Sergiu"><a href="https://www.instagram.com/sergiu.mihai7/"><img class="poza" src="1.jpg"></a></div>
-        <div class="membru container textOverImage" data-text="David"><a href="https://www.instagram.com/doopy.exe/"><img class="poza" src="2.jpg"></a></div>
-        <div class="membru container textOverImage" data-text="Georgiana"><a href="https://www.instagram.com/georgi_.ag/"><img class="poza" src="7.jpg"></a></div>
-        <div class="membru container textOverImage" data-text="Catalina"><a href="https://www.instagram.com/a_andreea2401/"><img class="poza" src="5.jpg"></a></div>
-        <div class="membru container textOverImage" data-text="Andreea"><a href="https://www.instagram.com/cata._.floare/"><img class="poza" src="6.jpg"></a></div>
+        <div class="membru container2 textOverImage" data-text="Sergiu"><a href="https://www.instagram.com/sergiu.mihai7/"><img class="poza" src="1.jpg"></a></div>
+        <div class="membru container2 textOverImage" data-text="David"><a href="https://www.instagram.com/doopy.exe/"><img class="poza" src="2.jpg"></a></div>
+        <div class="membru container2 textOverImage" data-text="Georgiana"><a href="https://www.instagram.com/georgi_.ag/"><img class="poza" src="7.jpg"></a></div>
+        <div class="membru container2 textOverImage" data-text="Catalina"><a href="https://www.instagram.com/a_andreea2401/"><img class="poza" src="5.jpg"></a></div>
+        <div class="membru container2 textOverImage" data-text="Andreea"><a href="https://www.instagram.com/cata._.floare/"><img class="poza" src="6.jpg"></a></div>
     </section>
 <div class="continut">
     <p>
@@ -96,9 +97,64 @@
   <div class="column row telefon"><img class="telefon2" src="telefon.png"><p>+40&nbsp;0770348723</p></div>
   <div class="column row email"><img class="email2" src="email.png"><p>dzerby07@gmail.com</p></div>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 <footer>
+
+  <div class="container">
+    <div class="post">
+      <div class="text">Multumim de parere!</div>
+      <div class="edit">EDIT</div>
+    </div>
+    <div class="star-widget">
+      <div class="text2">Ai vrea o Biblioteca in Giroc?</div>
+      <input type="radio" name="rate" id="rate-5">
+      <label for="rate-5" class="fas fa-star"></label>
+      <input type="radio" name="rate" id="rate-4">
+      <label for="rate-4" class="fas fa-star"></label>
+      <input type="radio" name="rate" id="rate-3">
+      <label for="rate-3" class="fas fa-star"></label>
+      <input type="radio" name="rate" id="rate-2">
+      <label for="rate-2" class="fas fa-star"></label>
+      <input type="radio" name="rate" id="rate-1">
+      <label for="rate-1" class="fas fa-star"></label>
+      <form action="#">
+        <header></header>
+        <div class="btn">
+          <button type="submit" target="_blank">Argumentati parerea</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const btn = document.querySelector("button");
+    const post = document.querySelector(".post");
+    const widget = document.querySelector(".star-widget");
+    const editBtn = document.querySelector(".edit");
+    btn.onclick = ()=>{
+      window.location='https://www.menti.com/8zcadwo597';
+      widget.style.display = "none";
+      post.style.display = "block";
+      editBtn.onclick = ()=>{
+        widget.style.display = "block";
+        post.style.display = "none";
+      }
+      return false;
+    }
+  </script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <audio controls autoplay id="myaudio">
   <source src="sunete.mp3" type="audio/mpeg">
