@@ -241,13 +241,19 @@ audio{
 
 .continut p {
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   
   /* Main Style for the paragraph effect */
   display: inline;
   background: #2b2b2c;
   padding: 8px;
   line-height: 1.8;
+}
+
+.continut h1{
+  color: white;
+  display: inline;
+  font-size: 40px;
 }
 
 .contact{
