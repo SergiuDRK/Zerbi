@@ -91,9 +91,10 @@ html { scroll-behavior: smooth; }
 .interviu{
   background-color: rgb(29, 29, 29);
   overflow: auto;
-  height: 600px;
+  height: 620px;
   margin: 0px 180px 0 180px;
   border-radius: 1%;
+  overflow: hidden;
 }
 
 .titlu-doc h3{
