@@ -91,17 +91,23 @@ html { scroll-behavior: smooth; }
 .interviu{
   background-color: rgb(29, 29, 29);
   overflow: auto;
-  height: 500px;
+  height: 600px;
   margin: 0px 180px 0 180px;
   border-radius: 1%;
 }
+
+.titlu-doc h3{
+  font-size: 28px;
+  margin: 25px 25px 25px 25px;
+}
+
  .text-interviu{
    text-align: left;
-   font-size: 8px;
+   font-size: 9px;
    margin: 50px 200px 0px 200px;
  }
 
-.florin{
+.recorder{
   float: left;
   width: 33%;
   margin-bottom: 30px;
@@ -110,14 +116,20 @@ html { scroll-behavior: smooth; }
   font-size: 32px;
 }
 
+.video{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 32%;
+}
+
 .rama2{
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
     border: 10px solid rgba(0,0,0,0.25);
-    margin: 48px 120px 5px 600px;
+    margin: 48px 120px 5px 40px;
 }
 
 .rama2 img{
@@ -131,9 +143,9 @@ html { scroll-behavior: smooth; }
 
 .muted-text {
   color: #222;
-  text-align: center;
+  text-align: left;
   display: block;
-  width: 30%;
+  width: 20%;
   margin-left: 495px;
   font-size: 30px;
 }
