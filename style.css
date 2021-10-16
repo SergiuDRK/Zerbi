@@ -88,6 +88,56 @@ footer{
 
 html { scroll-behavior: smooth; }
 
+.interviu{
+  background-color: rgb(29, 29, 29);
+  overflow: auto;
+  height: 500px;
+  margin: 0px 180px 0 180px;
+  border-radius: 1%;
+}
+ .text-interviu{
+   text-align: left;
+   font-size: 8px;
+   margin: 50px 200px 0px 200px;
+ }
+
+.florin{
+  float: left;
+  width: 33%;
+  margin-bottom: 30px;
+  padding: 0 8px;
+  margin-top: 3px;
+  font-size: 32px;
+}
+
+.rama2{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid rgba(0,0,0,0.25);
+    margin: 48px 120px 5px 600px;
+}
+
+.rama2 img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.muted-text {
+  color: #222;
+  text-align: center;
+  display: block;
+  width: 30%;
+  margin-left: 495px;
+  font-size: 30px;
+}
+
 
 .parteneri{
     border-top: 2px solid rgb(29, 29, 29);
